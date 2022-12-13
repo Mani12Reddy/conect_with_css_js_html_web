@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+    margin: 0%;
+    padding: 0%;
+
+}
+#continer {
+    background-color: gray;
+    width: auto;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+
+}
+.card{
+    margin: 10px;
+    width: 300px;
+    height: fit-content;
+    border: 2px solid black;
+    border-radius: 50px;
+
+}
+
+img{
+    width: 300px;
+    height: 400px;
+}
+.card-body{
+    padding: 10px;
+}
+.btn{
+    position: relative;
+    left: 110px;
+    top: 20px;
+    width: 75px;
+    border-top-left-radius: 75px;
+    border-bottom-right-radius: 75px;
+}
+.btn1{
+    background: linear-gradient(42deg,red,black,orange);
+    color: ghostwhite;
+}
+.btn2{
+    background: linear-gradient(42deg,orange,yellow,black);
+    color: ghostwhite;
+}
+.btn3{
+    background: linear-gradient(42deg,orange,black,lightblue);
+    color: ghostwhite;
+}
+
